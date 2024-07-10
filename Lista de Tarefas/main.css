@@ -45,6 +45,7 @@ form {
     padding: 16px;
     display: grid;
     max-width: 480px;
+    margin: 0, auto;
 }
 
 form input, textarea, button {
@@ -60,6 +61,11 @@ textarea {
     background-color: rgba(77, 34, 10, 0.8);
     color: #E7E7E7;
     font-weight: bold;
+}
+
+.atividade {
+    width: 480px;
+    margin: 0 auto;
 }
 
 ul {
