@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgba(77, 34, 10, 0.8);
+    color: #E7E7E7;
+    font-size: 24px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+header button {
+    background-color: #E7E7E7;
+    margin: 10px 24px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: green;
+    color: #E7E7E7;
+}
+
+body {
+    background-image: url(./Images/fundo.png);
+}
+
+form h2 {
+    font-size: 32px;
+    color: #E7E7E7;
+    background-color: rgba(77, 34, 10, 0.8);
+    margin-bottom: 8px;
+}
+
+form {
+    padding: 16px;
+    display: grid;
+    max-width: 480px;
+}
+
+form input, textarea, button {
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+}
+
+#botao-adicionar {
+    background-color: rgba(77, 34, 10, 0.8);
+    color: #E7E7E7;
+    font-weight: bold;
+}
+
+ul {
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    font-size: 24px;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul li.completed {
+    text-decoration: line-through;
+}
